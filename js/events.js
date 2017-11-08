@@ -3,13 +3,13 @@
 $(document).ready(function(){
 
 // call functions here
-(function getIt(){
+function getIt(){
 
   $('p').on('click',function(){
 
     alert("Hey!");
-  })
-});
+  });
+}
 function frameIt(){
   $(document).ready(function(){
 $('img').addClass('tasty');
