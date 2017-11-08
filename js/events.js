@@ -15,7 +15,7 @@ $('img').addClass('tasty');
 
 function pressIt(){
 
-  $('typing').keydown(function(e){
+  $('*').keydown(function(e){
 if(e.which==71){
   alert('Wow');
 }
