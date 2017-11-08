@@ -13,9 +13,17 @@ function getIt(){
 function frameIt(){
   $(document).ready(function(){
 $('img').addClass('tasty');
-    
+
   });
 }
 
+function pressIt(){
 
+  $('typing').keydown(function(e){
+if(e.which==71){
+  alert('Wow');
+}
+    
+  });
+}
 });
