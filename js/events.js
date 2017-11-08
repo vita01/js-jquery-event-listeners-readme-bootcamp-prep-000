@@ -23,7 +23,14 @@ function pressIt(){
 if(e.which==71){
   alert('Wow');
 }
-    
+
   });
+}
+function submitIt(){
+$('typing').submit(function(e){
+alert("Your form is going to be submitted now.");
+  
+});
+  
 }
 });
